@@ -1,0 +1,59 @@
+{
+    "name": "edrmtz01/laravel-jet-spanish",
+    "description": "Paquete de archivos de traducciones del  inglés al español  para Laravel 9.",
+    "keywords": [
+        "edrmtz01",
+        "laravel-jet-spanish",
+        "laravel",
+        "spanish",
+        "traduccion",
+        "laravel jetstream  spanish",
+        "jetstream translation",
+        "Jetstream traduccion"
+    ],
+    "homepage": "https://github.com/edrmtz01/laravel-jet-spanish",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Erick D.",
+            "email": "e.drmtz01@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "illuminate/support": "^8.0.0|^9.0.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0",
+        "phpunit/phpunit": "^8.0.0|^9.5.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edrmtz01\\LaravelJetSpanish\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Edrmtz01\\LaravelJetSpanish\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edrmtz01\\LaravelJetSpanish\\LaravelJetSpanishServiceProvider"
+            ],
+            "aliases": {
+                "LaravelJetSpanish": "Edrmtz01\\LaravelJetSpanish\\LaravelJetSpanishFacade"
+            }
+        }
+    }
+}
