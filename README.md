@@ -14,6 +14,7 @@ Paquete actualizado de traducciones para Laravel. El paquete  incluye las traduc
 
 |Versión Laravel |Compatibilidad|
 |------|-------------|
+|**10.X**|**✅**|
 |**9.X**|**✅**|
 |**8.X**|**✅**|
 
@@ -38,6 +39,7 @@ php artisan vendor:publish --tag=lang
 ```
 |Versión Laravel |Ruta de publicación|
 |------|-------------|
+|**10.X**|lang/es/|
 |**9.X**|lang/es/|
 |**8.X**|resources/lang/es/|
 
