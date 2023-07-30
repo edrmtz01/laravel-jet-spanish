@@ -3,12 +3,25 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/edrmtz01/laravel-jet-spanish.svg?style=flat-square)](https://packagist.org/packages/edrmtz01/laravel-jet-spanish)
 [![Total Downloads](https://img.shields.io/packagist/dt/edrmtz01/laravel-jet-spanish.svg?style=flat-square)](https://packagist.org/packages/edrmtz01/laravel-jet-spanish)
 
-Paquete actualizado de traducciones para Laravel. El paquete  incluye las traducciones de los siguientes elementos:
+Paquete actualizado de traducciones para Laravel y Jetstream. El paquete  incluye las traducciones de los siguientes elementos:
 
 - **Validaciones**  - Traducciones para las validaciones de Laravel.
 - **Mensajes** - Traducciones para los mensajes de Laravel.
 - **Componentes Jetstream** - Traducciones para los componentes de Jetstream.
+    - **Iniciar sesión**
+    - **Registro**,
+    - **Restablecer contraseña**
+    - **Perfil**  
+    - **Información del perfil**
+    - **Actualizar contraseña**
+    - **Autenticación de dos factores**
+    - **Sesiones del navegador**-
+    - **Eliminar cuenta**
+    - **Gestionar equipo**
+    - **Configuración del equipo**
+    - **Crear nuevo equipo**
 - **Correos** - Traducciones para los correos de Jetstream.
+
 
 ## Compatibilidad
 
@@ -92,7 +105,7 @@ Agradecimientos especiales a [Laravel Package Boilerplate](https://laravelpackag
 
 ## Seguridad
 
-Si descubre algún problema relacionado con la seguridad, envíe un correo electrónico a seguridad@erickdev.com en lugar de utilizar el rastreador de problemas.
+Si descubre algún problema relacionado con la seguridad, envíe un correo electrónico a e.drmtz01@gmail.com en lugar de utilizar el rastreador de problemas.
 
 
 
