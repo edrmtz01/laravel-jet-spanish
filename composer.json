@@ -1,6 +1,6 @@
 {
     "name": "edrmtz01/laravel-jet-spanish",
-    "description": "Paquete de archivos de traducciones del  inglés al español  para Laravel 9.",
+    "description": "Paquete actualizado de traducciones para Laravel y Jetstream. El paquete incluye las traducciones de los siguientes elementos: Validaciones - Traducciones para las validaciones de Laravel. Mensajes - Traducciones para los mensajes de Laravel. Componentes Jetstream - Traducciones para los componentes de Jetstream - Correos - Traducciones para los correos de Jetstream.",
     "keywords": [
         "edrmtz01",
         "laravel-jet-spanish",
